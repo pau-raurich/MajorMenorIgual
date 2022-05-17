@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/l_linear_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/taulell"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/esquerra_superior"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/esquerra_superior_1"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/elefant" />
+
+                    <ImageView
+                        android:id="@+id/esquerra_superior_2"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/elefant" />
+
+                    <ImageView
+                        android:id="@+id/esquerra_superior_3"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/elefant" />
+
+                    <ImageView
+                        android:id="@+id/esquerra_superior_4"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/elefant" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/esquerra_inferior"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/esquerra_inferior_1"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/elefant" />
+
+                    <ImageView
+                        android:id="@+id/esquerra_inferior_2"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/elefant" />
+
+                    <ImageView
+                        android:id="@+id/esquerra_inferior_3"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/elefant" />
+
+                    <ImageView
+                        android:id="@+id/esquerra_inferior_4"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/elefant" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/cercle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/cercle" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/dreta_superior"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/dreta_superior_1"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/lleo" />
+
+                    <ImageView
+                        android:id="@+id/dreta_superior_2"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/lleo" />
+
+                    <ImageView
+                        android:id="@+id/dreta_superior_3"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/lleo" />
+
+                    <ImageView
+                        android:id="@+id/dreta_superior_4"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/lleo" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/dreta_inferior"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/dreta_inferior_1"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/lleo" />
+
+                    <ImageView
+                        android:id="@+id/dreta_inferior_2"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/lleo" />
+
+                    <ImageView
+                        android:id="@+id/dreta_inferior_3"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/lleo" />
+
+                    <ImageView
+                        android:id="@+id/dreta_inferior_4"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/lleo" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/opcions"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+
+            <ImageButton
+                android:id="@+id/mes_gran"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/mes_gran" />
+
+            <ImageButton
+                android:id="@+id/mes_petit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/mes_petit" />
+
+            <ImageButton
+                android:id="@+id/iguals"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/iguals" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/punts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:text="Punts: 0"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <FrameLayout
+            android:id="@+id/has_perdut"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/colorRed"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/text_partida_perduda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-20dp"
+                android:gravity="center"
+                android:text="HAS PERDUT :("
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/punts_partida_perduda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:text="La teva pontuació és: 0"
+                android:textSize="30sp" />
+
+            <ImageButton
+                android:id="@+id/tornar_principi"
+                android:layout_width="55dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="185dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/tornar_principi" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
